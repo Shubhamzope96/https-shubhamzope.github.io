@@ -138,6 +138,7 @@ p {
 .about-me.pt-5 {
     text-align: justify;
     margin-right: 2rem;
+    line-height: 22px;
 }
 .r-2{
     margin-top: 2rem;
@@ -160,4 +161,22 @@ p {
 }
 .p-20{
     padding: .5rem!important;
+}
+.about-me h1::after{
+    content: "";
+    position: relative;
+    height: 3px;
+    background-color: #0078ff;
+    width: 73px;
+    bottom: -2px;
+    left: 0;
+    display: block;
+}
+.about-main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(58, 29, 85, 0.897);
+}
+#about{
+    background-color: black;
 }
