@@ -1,0 +1,10 @@
+/* #cover img{
+    width:100%;
+    height:500px;
+} */
+#covercomp{
+    background-image:url('src/assets/images/pexels-max-deroin-249203.jpg');
+    height: 500px;
+    width:100%;
+    background-size: 100% 100%;
+}
