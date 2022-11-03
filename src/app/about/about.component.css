@@ -102,9 +102,6 @@ img, svg {
 .p-2 {
     padding: .5rem!important;
 }
-.pt-5 {
-    /*padding-top: 3rem!important;*/
-}
 .h5, h5 {
     font-size: 1.25rem;
 }
@@ -159,12 +156,8 @@ p {
     display: flex;
 }
 .ui-badge-wrap{
-    /*margin-left: 1rem;*/
     margin-right: 1rem;
 }
 .p-20{
     padding: .5rem!important;
 }
-/* .about-img{
-    background-image: url('docs/assets/images/IMG_8619.jpg');
-} */
