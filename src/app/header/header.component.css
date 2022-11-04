@@ -215,3 +215,17 @@
         font-size: 26px !important;
     }
 }
+.mobNavOption{
+    display: flex;
+}
+#mobNavList{
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: black;
+    top: 20px;
+    right:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 30px;
+}

@@ -1,20 +1,29 @@
 <!-- header -->
-<div class="headerDiv fixed-top header-expand-lg" >
-    <div class="container">
-        <div id="greetingText" >
-            <h1 style="padding: 8px"><fa-icon [icon]="handsFolded"></fa-icon>  Greetings! form Shubham</h1>
-        </div>
-        <div class="navbar collapse navbar-collapse">
+<section style="width: 102.5%;">
+    <div class="headerDiv fixed-top header-expand-lg" >
+        <div class="container">
+            <div id="greetingText" >
+                <h1 style="padding: 8px"><fa-icon [icon]="handsFolded"></fa-icon>  Greetings! form Shubham</h1>
+            </div>
+            <div class="navbar collapse navbar-collapse">
+                
+                <ul id="navigationList " class="navigationList" >
+                    <li class="fa-solid fa-house navOption " (click)="showAlert()" style="color:darkorange;"><fa-icon [icon]="home"></fa-icon> Home</li>
+                    <li class="fa fa home navOption"><a href="#about"><fa-icon [icon]="person"></fa-icon></a> About</li>
+                    <li class="fa fa home navOption"><fa-icon [icon]="projects"></fa-icon> projects</li>
+                    <li class="fa fa home navOption"><fa-icon [icon]="contacts"></fa-icon> contacts</li>
+                </ul>
+                <span id="nav-icon" (click)="showNavOptions()"><fa-icon [icon]="navIcon"></fa-icon></span>
+                
+            </div>
             
-            <ul id="navigationList " class="navigationList" >
-                <li class="fa-solid fa-house navOption " (click)="showAlert()" style="color:darkorange;"><fa-icon [icon]="home"></fa-icon> Home</li>
-                <li class="fa fa home navOption"><a href="#about"><fa-icon [icon]="person"></fa-icon></a> About</li>
-                <li class="fa fa home navOption"><fa-icon [icon]="projects"></fa-icon> projects</li>
-                <li class="fa fa home navOption"><fa-icon [icon]="contacts"></fa-icon> contacts</li>
+            <ul id="mobNavList">
+                <li class="fa-solid fa-house mobNavOption" style="color:darkorange;"><a href="#header"><fa-icon [icon]="home"></fa-icon></a>&nbsp; Home</li>
+                <li class="fa fa home mobNavOption"><a href="#about"><fa-icon [icon]="person"></fa-icon></a>&nbsp;&nbsp; About</li>
+                <li class="fa fa home mobNavOption"><a href="#projects"><fa-icon [icon]="projects"></fa-icon></a>&nbsp; projects</li>
+                <li class="fa fa home mobNavOption"><a href="#contacts"><fa-icon [icon]="contacts"></fa-icon></a>&nbsp; contacts</li>
             </ul>
-            <span id="nav-icon" (click)="showNavOptions()"><fa-icon [icon]="navIcon"></fa-icon></span>
         </div>
-        
-        
     </div>
-</div>
+</section>
+

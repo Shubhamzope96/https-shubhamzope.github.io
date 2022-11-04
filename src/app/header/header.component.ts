@@ -28,8 +28,8 @@ export class HeaderComponent implements OnInit {
   }
   showNavOptions(){
     
-    document.getElementById('navigationList')?.classList.add("show");
-    document.getElementById('navigationList')?.classList.remove("hide");
+    document.getElementById('mobNavList')?.classList.add("show");
+    document.getElementById('mobNavList')?.classList.remove("hide");
     
     document.getElementById('nav-icon')?.classList.add("hide");
     document.getElementById('nav-icon')?.classList.add("show");

@@ -8,3 +8,8 @@
     width:100%;
     background-size: 100% 100%;
 }
+@media (max-width: 480px){
+    #covercomp{
+        height: 225px !important;
+    }
+}
