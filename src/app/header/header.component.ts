@@ -32,10 +32,10 @@ export class HeaderComponent implements OnInit {
     document.getElementById('mobNavList')?.classList.remove("hide");
     
     document.getElementById('nav-icon')?.classList.add("hide");
-    document.getElementById('nav-icon')?.classList.add("show");
+    document.getElementById('nav-icon')?.classList.add("hide");
 
   }
- 
+  
   home = faHome
   person = faPerson
   projects = faLaptopCode

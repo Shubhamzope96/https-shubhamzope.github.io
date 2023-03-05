@@ -180,3 +180,6 @@ p {
 #about{
     background-image: linear-gradient( black,#2b1740);
 }
+.about-info.p-2 {
+    padding-top: 40px !important;
+}

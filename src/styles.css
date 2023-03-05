@@ -2,3 +2,9 @@
 body{
     width: fit-content;
 }
+.screencover{
+    width:136.5%;
+}
+.text-center {
+    text-align: center!important;
+}

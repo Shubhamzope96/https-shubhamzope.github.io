@@ -1,5 +1,5 @@
 <!-- header -->
-<section style="width: 102.5%;">
+<section class="screencover">
     <div class="headerDiv fixed-top header-expand-lg" >
         <div class="container">
             <div id="greetingText" >
@@ -10,7 +10,7 @@
                 <ul id="navigationList " class="navigationList" >
                     <li class="fa-solid fa-house navOption " (click)="showAlert()" style="color:darkorange;"><fa-icon [icon]="home"></fa-icon> Home</li>
                     <li class="fa fa home navOption"><a href="#about"><fa-icon [icon]="person"></fa-icon></a> About</li>
-                    <li class="fa fa home navOption"><fa-icon [icon]="projects"></fa-icon> projects</li>
+                    <li class="fa fa home navOption"><a href="#projects"><fa-icon [icon]="projects"></fa-icon></a> projects</li>
                     <li class="fa fa home navOption"><fa-icon [icon]="contacts"></fa-icon> contacts</li>
                 </ul>
                 <span id="nav-icon" (click)="showNavOptions()"><fa-icon [icon]="navIcon"></fa-icon></span>

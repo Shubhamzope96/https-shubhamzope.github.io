@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class HomeCoverComponent implements OnInit {
 
   constructor() { }
+closeNavOption(){
+  document.getElementById('mobNavList')?.classList.remove("show");
+  document.getElementById('nav-icon')?.classList.add("show");
+  document.getElementById('nav-icon')?.classList.remove("hide");
+}
 
   ngOnInit(): void {
   }
