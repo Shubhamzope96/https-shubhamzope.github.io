@@ -28,6 +28,7 @@
     margin-right: auto;
     margin-left: auto;
 }
+
 @media (min-width: 1400px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1320px;
@@ -155,6 +156,8 @@ p {
 .Hack-badges{
     margin-top: 1rem;
     display: flex;
+    scale: 0.7;
+    margin-top: -2px;
 }
 .ui-badge-wrap{
     margin-right: 1rem;
@@ -167,10 +170,38 @@ p {
     position: relative;
     height: 3px;
     background-color: #0078ff;
-    width: 73px;
+    width: 63px;
     bottom: -2px;
     left: 0;
     display: block;
+}
+.recognitions{
+    color: black;
+}
+.recognitions::after{
+    content: "";
+    position: relative;
+    height: 3px;
+    background-color: #0078ff;
+    width: 130px;
+    bottom: -2px;
+    left: 0;
+    display: block;
+}
+.git-and-hackerrank{
+    display: flex;
+    margin-top: 20px;
+    box-shadow: 0 20px 1px 0px white, 0 -16px 0px 0px white, 0px 0 15px -4px rgb(128 200 252 / 80%), 0px 0 15px -4px rgb(5 92 201 / 80%);
+}
+.award{
+    display: flex;
+    box-shadow: 0 20px 1px 0px white, 0 -16px 0px 0px white, 0px 0 15px -4px rgb(128 200 252 / 80%), 0px 0 15px -4px rgb(5 92 201 / 80%);
+}
+.award-image{
+    max-height: 200px;
+    max-width: 150px;
+    border: 2px solid #606060bd;
+    margin: 0px 10px;
 }
 .about-main{
     padding-top: 20px;
@@ -182,4 +213,7 @@ p {
 }
 .about-info.p-2 {
     padding-top: 40px !important;
+}
+.w-250{
+    max-width: 250px;
 }
