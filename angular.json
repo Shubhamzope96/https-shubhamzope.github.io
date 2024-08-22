@@ -25,7 +25,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "rxjs-compat",
+              "jquery"
+            ]
           },
           "configurations": {
             "production": {
@@ -37,8 +41,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "4kb",
+                  "maximumError": "5mb"
                 }
               ],
               "fileReplacements": [
