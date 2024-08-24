@@ -13,3 +13,434 @@
         height: 225px !important;
     }
 }
+#cover{
+    color: #FFF;
+    width: 100%;
+    position: absolute;
+    vertical-align: middle !important;
+    display: table-cell !important;
+    top:56%
+}
+#text-container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+#steady-text{
+    margin-top: 15px;
+    z-index: 20;
+    padding-left: 3rem;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.skill-container{
+    display: flex;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 3rem; 
+}
+#steady-text {
+    animation-duration: 1s;
+    position: relative;
+    animation: steady-text .4s smooth;
+    animation-name: steady-text;
+    animation-delay: 0s;
+    width: fit-content;
+}
+@keyframes steady-text {
+    0% {
+        scale: 0;
+    }
+    100% {
+        scale: 1;
+    }
+}
+#movetxt-java {
+    animation-duration: 12s;
+    position: relative;
+    animation: java 120s smooth;
+    animation-name: java;
+    animation-delay: 0s;
+}
+@keyframes java {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#movetxt-spring-core{
+    animation-duration: 12s;
+    position: relative;
+    animation: spring-core 120s smooth;
+    animation-name: spring-core;
+    animation-delay: 0s;
+    padding-left: 20PX;
+}
+@keyframes spring-core {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#movetxt-spring-boot {
+    animation-duration: 12s;
+    position: relative;
+    animation: spring-boot 120s smooth;
+    animation-name: spring-boot;
+    animation-delay: 0s;
+    padding-left: 20PX;
+}
+@keyframes spring-boot {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#movetxt-hibernate {
+    animation-duration: 12s;
+    position: relative;
+    animation: hibernate 120s smooth;
+    animation-name: hibernate;
+    animation-delay: 0s;
+    padding-left: 20PX;
+}
+@keyframes hibernate {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#movetxt-microservices {
+    animation-duration: 12s;
+    position: relative;
+    animation: microservices 120s smooth;
+    animation-name: microservices;
+    animation-delay: 0s;
+    padding-left: 20PX;
+}
+@keyframes microservices {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#movetxt-sql {
+    animation-duration: 12s;
+    position: relative;
+    animation: sql 120s smooth;
+    animation-name: sql;
+    animation-delay: 0s;
+    padding-left: 20PX;
+}
+@keyframes sql {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#movetxt-javascript {
+    animation-duration: 12s;
+    position: relative;
+    animation: javascript 120s smooth;
+    animation-name: javascript;
+    animation-delay: 0s;
+    padding-left: 20PX;
+}
+@keyframes javascript {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#movetxt-jQuery {
+    animation-duration: 12s;
+    position: relative;
+    animation: jQuery 120s smooth;
+    animation-name: jQuery;
+    animation-delay: 0s;
+    padding-left: 20PX;
+}
+@keyframes jQuery {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#movetxt-angular {
+    animation-duration: 12s;
+    position: relative;
+    animation: angular 120s smooth;
+    animation-name: angular;
+    animation-delay: 0s;
+    padding-left: 20PX;
+}
+@keyframes angular {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

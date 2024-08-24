@@ -87,6 +87,7 @@ export class HeaderComponent implements OnInit {
       this.currEle.addClass("active");
       $("#home").css("color","darkorange");
       $("#home").find("fa-icon").css("color","darkorange");
+      window.scroll({top:0});
     }
   }
   home = faHome
