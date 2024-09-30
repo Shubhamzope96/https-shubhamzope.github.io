@@ -15,7 +15,7 @@
                                     <p class="project-description">
                                         Personal profile website has about section which contains my personal information and proffesional details like comapany details and work experience.
                                     </p>
-                                    <p class="more-details-Btn"  (click)="showMoreDetails(0)">more details</p>
+                                    <p class="more-details-Btn"  (click)="showMoreDetails(1)">more details</p>
                                     <div  class="more-info" >
                                         <p>In the project section all projects that I have worked on are described with the techs used. 
                                             Social information details and accounts link are provided in footer section.
@@ -35,7 +35,7 @@
                                             I have used spring security with JWT token for the authentication. MySql database is used for storing and organizing the data.
                                             Front-end is developed with the Angular js.
                                     </p>
-                                    <p class="more-details-Btn" (click)="showMoreDetails(1)">more details</p>
+                                    <p class="more-details-Btn" (click)="showMoreDetails(2)">more details</p>
                                     <div  class="more-info">
                                         <p>Spend Distributor Application is designed to distribute the room, trip kind of expenditures among the group members.
                                             It facilates the CRUD operations on users, groups and spends.</p>
@@ -51,6 +51,59 @@
                                     
                                 </div>
                             </div>
+                            
+                        </div>
+                        <div class="row popup-container">
+                            <div class="project-cart project1" style="margin-left: 16rem; margin-right: 1rem; max-width:800px;margin-top:-36%;
+                                        background:rgb(189, 183, 197);">
+                                <div style="display:flex;align-item:right;">
+                                    <img src="./assets/images/personal_profile_image.png" class="project-img">
+                                    <div style="width:100%;">
+                                        <fa-icon [icon]="close" style="float:right;color:rgb(171, 15, 15);font-size: larger;" (click)="showMoreProjectDet(0)"></fa-icon>
+                                    </div>
+                                </div>
+                                <h3 class="project-title">Personal Profile</h3>
+                                <i class="languages">Languages Used : Angular 14</i>
+                                <p class="project-description">
+                                    Personal profile website has about section which contains my personal information and proffesional details like comapany details and work experience.
+                                </p>
+                                <div>
+                                    <p>In the project section all projects that I have worked on are described with the techs used. 
+                                        Social information details and accounts link are provided in footer section.
+                                        Technologies used : Angular, HTML, CSS.
+                                    </p>
+                                    <p><a href="https://github.com/Shubhamzope96/Shubhamzope96.github.io" target=”_blank”>Git Hub</a></p>
+                                </div> 
+                            </div>
+                            <div class="project-cart project2" style="margin-left: 16rem; margin-right: 1rem; max-width:800px;margin-top:-36%;
+                                        background:rgb(189, 183, 197);">
+                                <div style="display:flex;align-item:right;">
+                                <img src="./assets/images/Image_Not_Available.jpg"  class="project-img">
+                                    <div style="width:100%;">
+                                        <fa-icon [icon]="close" style="float:right;color:rgb(171, 15, 15);font-size: larger;" (click)="showMoreProjectDet(0)"></fa-icon>
+                                    </div>
+                                </div>
+                                <h3 class="project-title">Spend Distributor</h3>
+                                <i class="languages">Languages Used : Java with spring boot framework, javascript, jquery, html, css for frontend.</i>
+                                <p class="project-description">Back-end of spend distributor application is developed with java with spring boot in spring MVC pattern.
+                                        I have used spring security with JWT token for the authentication. MySql database is used for storing and organizing the data.
+                                        Front-end is developed with the Angular js.
+                                </p>
+                                <div >
+                                    <p>Spend Distributor Application is designed to distribute the room, trip kind of expenditures among the group members.
+                                        It facilates the CRUD operations on users, groups and spends.</p>
+                                    <p> Admin can create a group of respective members for spend distribution. 
+                                        All authenticated members who spend money, can mark their spend's entries in the respective group.
+                                        In the analysis section the distributed spends can be analysed. 
+                                    </p>
+                                    <p>
+                                        The graphical representation is provided by integrating fussion charts for better understanding.
+                                    </p>
+                                    <p><a href="https://github.com/Shubhamzope96/expo" target=”_blank”>Git Hub</a></p>
+                                </div>
+                                
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -58,4 +111,5 @@
             </div>
         </div>
     </div>
+    <div class="spinner_overlay"></div>
 </section>

@@ -1,18 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { faClose } from '@fortawesome/free-solid-svg-icons';
+import * as $ from 'jquery';
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-showMoreDetails(item:any) {
-  debugger;
-  console.log(item);
-  var cart = document.getElementsByClassName("project-cart")[item];
-  (<HTMLElement>cart.getElementsByClassName("more-details-Btn")[0]).style.display="none";
-  (<HTMLElement>cart.getElementsByClassName("more-info")[0]).style.display="block";
-}
 
   constructor() {
     
@@ -21,4 +16,22 @@ showMoreDetails(item:any) {
   ngOnInit(): void {
   }
 
+  showMoreDetails(item:any) {
+    this.showMoreProjectDet(item);
+  }
+
+  showMoreProjectDet(item: any){
+    debugger;
+    if (item==0){
+      $(".project1,.project2").hide();
+      $(".spinner_overlay").hide();
+    }else if(item==1){
+      $(".project1").toggle();
+      $(".spinner_overlay").toggle();
+    }else if (item==2){
+      $(".project2").toggle();
+      $(".spinner_overlay").toggle();
+    }
+  }
+  close=faClose
 }
